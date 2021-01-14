@@ -9,6 +9,7 @@ int sherlockAndAnagrams(string s) {
     int output = 0;
     int n = s.length();
     
+    //creating substring ==> sorting ==> adding to map and keeping the count of anagrams
      for (int len = 1; len <= n; len++) 
     {    
         for (int i = 0; i <= n - len; i++) 
