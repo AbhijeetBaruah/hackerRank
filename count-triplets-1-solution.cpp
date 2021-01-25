@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+//some lines or variables may be not useful, one can check accordingly
 // Complete the countTriplets function below.
 long long countTriplets(vector<long> arr, long r) {
 
