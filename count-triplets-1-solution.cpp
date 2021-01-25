@@ -10,7 +10,6 @@ long long countTriplets(vector<long> arr, long r) {
     map<long,int> LeftHandSide;
     long long output=0;
     long i = 1;
-    long aa = arr[0];
     LeftHandSide.insert(pair<long,int>(arr[i-1],1));
 
     //cout<<"i = "<<i<<endl;
@@ -69,8 +68,8 @@ long long countTriplets(vector<long> arr, long r) {
 
 int main()
 {
-    // open file
-    ifstream inputFile("D:/codeblocks_projects/hackerank/inputfull.txt");
+    // open file for test cases in my local machine
+    ifstream inputFile("/hackerank/inputfull.txt");
 
     vector<long> arr;
     int i=0;
@@ -92,7 +91,4 @@ int main()
     return 0;
 }
 
-//2325652489--output
-//1339347780085
-//my answer : 1326500100504
 
