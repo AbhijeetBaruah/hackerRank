@@ -14,7 +14,7 @@ def callBinary(sortedArr,find):
     #for the array under inspection
     low=0
     max=len(sortedArr)-1 #as index is 0 based
-    while(low<max):
+    while(low<=max):
         mid=(low+max)//2
         if(sortedArr[mid]==find):
             return mid
