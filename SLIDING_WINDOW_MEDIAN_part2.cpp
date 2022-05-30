@@ -15,6 +15,7 @@ vector<string> split(const string &);
  *  2. INTEGER d
  */
 //COUNTSORT => https://www.youtube.com/watch?v=pEJiGC-ObQE
+//EFFICIENT ==>  use countsort when the range is known and small
 
 void removeOldValueFromCountArray(vector<int> &countArray,int value) {
     countArray[value]--;
